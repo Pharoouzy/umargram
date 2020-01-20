@@ -82,7 +82,7 @@
         <main class="py-4">
             @yield('content')
         </main>
-        <footer class="page-footer font-small grey">
+        <footer class="page-footer font-small grey fixed-bottom">
             <div class="footer-copyright text-center py-3">&copy; {{ date('Y') }} Copyright:
                 <a href="https://github.com/Pharoouzy"> Pharoouzy</a>
             </div>
